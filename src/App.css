@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   .App.high-water {
     background-image: url(./assets/raining.gif);
     background-size: 800px 1000px;
@@ -106,7 +106,7 @@
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .container {
     width: 70%;
     height: 50%;
@@ -133,7 +133,7 @@
   text-align: center;
   font-weight: 600;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .content h2 {
     font-size: 1.8em;
   }
@@ -154,7 +154,7 @@
   margin-top: -0.5em;
   list-style: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .content-list li {
     font-size: 1.5em;
     margin-top: 0em;
