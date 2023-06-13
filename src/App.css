@@ -63,32 +63,32 @@
 @media screen and (max-width: 767px) {
   .App.high-water {
     background-image: url(./assets/raining.gif);
-    background-size: cover;
+    background-size: 800px 1000px;
   }
 
   .App.sunny-raining {
     background-image: url(./assets/raining-sunny.gif);
-    background-size: cover;
+    background-size: 800px 1000px;
   }
 
   .App.sunny {
     background-image: url(./assets/sunny.gif);
-    background-size: cover;
+    background-size: 800px 1000px;
   }
 
   .App.raining-drizzle {
     background-image: url(./assets/rain-drizzle.gif);
-    background-size: cover;
+    background-size: 800px 1000px;
   }
 
   .App.night {
     background-image: url(./assets/night.gif);
-    background-size: cover;
+    background-size: 600px 1000px;
   }
 
   .App.heart-beat {
     background-image: url(./assets/heartbeat-pulse.gif);
-    background-size: cover;
+    background-size: 600px 1000px;
   }
 }
 
@@ -108,20 +108,11 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 70%; /* Adjust the width for smaller screens */
-    height: 80%;
+    width: 70%;
+    height: 50%;
     font-size: 0.8em;
+    line-height: 1.2;
   }
-  /* Add other responsive styles as needed */
-}
-
-/* Styles for larger screens */
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 25%; /* Adjust the width for larger screens */
-    font-size: 1em;
-  }
-  /* Add other responsive styles as needed */
 }
 
 .container-margin {
@@ -142,6 +133,11 @@
   text-align: center;
   font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+  .content h2 {
+    font-size: 1.8em;
+  }
+}
 .content p {
   text-align: justify;
   font-size: 1.2em; /* Use relative font size */
@@ -157,4 +153,10 @@
   margin-left: 1em; /* Adjust margins for spacing */
   margin-top: -0.5em;
   list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .content-list li {
+    font-size: 1.5em;
+    margin-top: 0em;
+  }
 }
