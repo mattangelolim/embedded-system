@@ -59,6 +59,39 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .App.high-water {
+    background-image: url(./assets/raining.gif);
+    background-size: 2000px 2000px;
+  }
+
+  .App.sunny-raining {
+    background-image: url(./assets/raining-sunny.gif);
+    background-size: 2000px 2000px;
+  }
+
+  .App.sunny {
+    background-image: url(./assets/sunny.gif);
+    background-size: 2000px 2000px;
+  }
+
+  .App.raining-drizzle {
+    background-image: url(./assets/rain-drizzle.gif);
+    background-size: 2000px 2000px;
+  }
+
+  .App.night {
+    background-image: url(./assets/night.gif);
+    background-size: 2000px 2000px;
+  }
+
+  .App.heart-beat {
+    background-image: url(./assets/heartbeat-pulse.gif);
+    background-size: 2000px 2000px;
+  }
+}
+
 .container {
   position: relative;
   background-color: white;
