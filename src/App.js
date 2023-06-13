@@ -5,8 +5,10 @@ import "firebase/compat/database";
 import { faHeartbeat, faSun, faTint } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import firebaseConfig from "./firebase";
+import secret from "./secret";
 
 firebase.initializeApp(firebaseConfig);
+firebaseConfig.apiKey = secret.apiKey;
 
 function App() {
   const [ldrData, setLdrData] = useState(null);
