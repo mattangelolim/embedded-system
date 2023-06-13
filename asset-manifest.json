@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/embedded-system/static/css/main.18589d5c.css",
+    "main.js": "/embedded-system/static/js/main.f4aa8093.js",
+    "static/js/787.ed0216ea.chunk.js": "/embedded-system/static/js/787.ed0216ea.chunk.js",
+    "static/media/sunny.gif": "/embedded-system/static/media/sunny.f9d04576f6de056e2542.gif",
+    "static/media/night.gif": "/embedded-system/static/media/night.9b99536fe50de3b4f05f.gif",
+    "static/media/raining-sunny.gif": "/embedded-system/static/media/raining-sunny.88143f7cfd1eab7cf072.gif",
+    "static/media/rain-drizzle.gif": "/embedded-system/static/media/rain-drizzle.f4ce1df7fecdf1b521e0.gif",
+    "static/media/heartbeat-pulse.gif": "/embedded-system/static/media/heartbeat-pulse.5ef117ea6e043638b6b7.gif",
+    "static/media/raining.gif": "/embedded-system/static/media/raining.e7c4c2be4ca32b076fe0.gif",
+    "index.html": "/embedded-system/index.html",
+    "main.18589d5c.css.map": "/embedded-system/static/css/main.18589d5c.css.map",
+    "main.f4aa8093.js.map": "/embedded-system/static/js/main.f4aa8093.js.map",
+    "787.ed0216ea.chunk.js.map": "/embedded-system/static/js/787.ed0216ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18589d5c.css",
+    "static/js/main.f4aa8093.js"
+  ]
+}
