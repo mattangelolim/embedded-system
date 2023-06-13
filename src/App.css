@@ -1,38 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 .App {
+  background-color: #06283d;
+  height: 100vh;
+}
+
+.App.high-water {
+  background-image: url(./assets/raining.gif);
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+  animation: fade 2s forwards;
+}
+.App.sunny-raining {
+  background-image: url(./assets/raining-sunny.gif);
+  background-repeat: no-repeat;
+  animation: fade 2s forwards;
+  background-size: 2000px 1000px;
+}
+.App.sunny {
+  background-image: url(./assets/sunny.gif);
+  background-repeat: no-repeat;
+  animation: fade 2s forwards;
+  background-size: 2000px 1000px;
+}
+.App.raining-drizzle {
+  background-image: url(./assets/rain-drizzle.gif);
+  background-repeat: no-repeat;
+  animation: fade 2s forwards;
+  background-size: 2000px 1000px;
+}
+.App.night {
+  background-image: url(./assets/night.gif);
+  background-repeat: no-repeat;
+  animation: fade 2s forwards;
+  background-size: 2000px 1000px;
+}
+.App.heart-beat {
+  background-image: url(./assets/heartbeat-pulse.gif);
+  background-repeat: no-repeat;
+  animation: fade 2s forwards;
+  background-size: 2000px 1000px;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container {
+  position: relative;
+  background-color: white;
+  height: 600px;
+  width: 480px;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-margin {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.content {
+  position: absolute;
+  display: block;
+  font-size: 20px;
+}
+
+.content h2 {
+  margin: 20px auto;
   text-align: center;
+  font-weight: 600;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content p {
+  text-align: justify;
+  margin: 0px 5px;
+  padding: 5px 12px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-list li {
+  margin-left: 20px;
+  list-style: none;
 }
